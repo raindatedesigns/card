@@ -1,1 +1,11 @@
-h1{color:coral}
+body{
+    background-color: #214475;
+}
+
+.icon-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+

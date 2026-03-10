@@ -1,3 +1,4 @@
+
 body{
     background-color: #214475;
 }
@@ -5,23 +6,77 @@ body{
 .icon-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+   
 }
 
-.akaya-kanadaka-regular {
+.icon-container{
+  width: fit-content;
+}
+
+
+#gmail{
+  width: 200px;
+}
+
+#instagram{
+  width: 200px;
+}
+
+#linkedin{
+  width: 200px;
+}
+
+
+#gmail:hover{
+  width: 220px;
+}
+
+#instagram:hover{
+  width: 220px;
+}
+
+#linkedin:hover{
+  width: 220px;
+}
+
+#lcloud{
+  width: 700px;
+}
+
+#rcloud{
+width: 550px;
+}
+
+.gif{
+  width: 500px;
+}
+
+h1{
+  color: #ceebf2;
   font-family: "Akaya Kanadaka", system-ui;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+  font-size: 100px;
+  line-height: 30px;
 }
 
-.bitcount-grid-double- {
-  font-family: "Bitcount Grid Double", system-ui;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
+
+h2{
+  color: #ceebf2;
+  font-family: "ice-cream-standard", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 50px;
+}
+
+h3{
+   color: #ceebf2;
+  font-family: "ice-cream-standard", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 30px;
 }
 

@@ -3,9 +3,49 @@ body{
     background-color: #214475;
 }
 
+body {
+  cursor: url("Assests/custom-cursor.png"), auto;
+}
+
+a{
+   cursor: url("Assests/cursor-link.png"), auto;
+    }
+
+    .hero-container{
+      background-image: url("Assests/rainagain.gif");
+      background-size: cover;
+      display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "h h h h h"
+    ". . r r r"
+    ". . . . ."
+    "l l l . ";
+  margin: 0 auto;
+       width: 500px;
+      height: 500px;
+      margin: 0 auto;
+    }
+    #lcloud{
+      grid-area:r;
+      margin-top: 100px; transform: translate(100px,120px);
+
+  width: 700px;
+}
+
+#rcloud{
+width: 400px;
+grid-area: l; transform: translate(-200px,170px);
+}
+.hero-text{
+  grid-area:h
+}
+
+
 .icon-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
    
 }
 
@@ -39,13 +79,7 @@ body{
   width: 220px;
 }
 
-#lcloud{
-  width: 700px;
-}
 
-#rcloud{
-width: 450px;
-}
 
 .gif{
   width: 500px;

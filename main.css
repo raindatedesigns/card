@@ -38,9 +38,12 @@ width: 400px;
 grid-area: l; transform: translate(-500px,100px);
 }
 .hero-text{
-  grid-area:h
+  grid-area:h ;
+  transform: translate(-380px,-200px);
 }
-
+.sub-text{
+  transform: translate(110px,75px);
+}
 
 .icon-container{
     display: grid;
